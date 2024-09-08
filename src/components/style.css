@@ -1,0 +1,98 @@
+.calculator {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 10px solid #b11c1c;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(249, 2, 2, 0.1);
+  }
+  
+  .display {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    background-color: #f0f0f0;
+    text-align: right;
+  }
+  
+  .button-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+  
+  button {
+    width: 100%;
+    height: 40px;
+    padding: px;
+    border: none;
+    border-radius: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .clear-button {
+    grid-column: 1 / 5;
+    background-color: #f44336;
+  }
+  
+  .clear-button:hover {
+    background-color: #e91e63;
+  }
+  .calculator {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .display {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    text-align: right;
+  }
+  
+  .button-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+  
+  button {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .clear-button {
+    grid-column: 1 / 5;
+    background-color: #f44336;
+  }
+  
+  .clear-button:hover {
+    background-color: #e91e63;
+  }
